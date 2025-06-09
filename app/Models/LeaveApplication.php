@@ -13,7 +13,9 @@ class LeaveApplication extends Model
         'start_date',
         'end_date',
         'reason',
-        'status'
+        'status',
+        'is_half_day',
+        'half_day_period',
     ];
 
     public function user(): BelongsTo
